@@ -1,0 +1,29 @@
+#logo{
+    max-inline-size: 60px;
+}
+
+#wrapper{
+    max-width: 1200px;
+}
+
+hr {
+    width: 20% !important;
+    height: 4px !important;
+    color: red;
+}
+
+.square {
+    text-align: justify;
+}
+
+.signupform {
+    max-width: 1200px; 
+}
+
+.background{
+    z-index: -1;
+}
+
+.instructors{
+    max-width: 1500px;
+}
