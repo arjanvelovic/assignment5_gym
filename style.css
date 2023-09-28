@@ -2,6 +2,10 @@
     max-inline-size: 60px;
 }
 
+.headerimg{
+    margin-top: 90px;
+}
+
 #wrapper{
     max-width: 1200px;
 }
@@ -16,29 +20,21 @@ hr {
     text-align: justify;
 }
 
-.signupform {
-    max-width: 1200px; 
-}
-
-.background{
+.background1{
     z-index: -1;
+    margin-top: 80px;
+}
+.background2{
+    z-index: -1;
+    margin-top: 403px;
+}
+.background3{
+    z-index: -1;
+    margin-top: 726px;
 }
 
 .instructors{
     max-width: 1500px;
-}
-
-#Fred{
-    background-image: url(static/Fred.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 60vh;
-}
-
-#Fred:hover #FredShow{
-    display: none;
-    transition: 1s;
 }
 
 .HiddenBlock{
@@ -52,18 +48,64 @@ hr {
     align-items: center;
 }
 
+#Fred{
+    background-image: url(static/Fred.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+#Fred:hover #FredShow{
+    display: none;
+}
 #Fred:hover #FredHide{
     display: flex;
-    transition: 1s;
+}
+
+#Zo{
+    background-image: url(static/Alanzo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+#Zo:hover #ZoShow{
+    display: none;
+}
+#Zo:hover #ZoHide{
+    display: flex;
+}
+
+#Kevin{
+    background-image: url(static/Kevin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+#Kevin:hover #KevinShow{
+    display: none;
+}
+#Kevin:hover #KevinHide{
+    display: flex;
+}
+
+#Tom{
+    background-image: url(static/Tom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+#Tom:hover #TomShow{
+    display: none;
+}
+#Tom:hover #TomHide{
+    display: flex;
 }
 
 #instructorrow{
     column-gap: 1%;
-}
-
-.tablecontainer{
-    max-width: 1500px;
-    margin-top: 100px;
 }
 
 .galleryimages{
@@ -74,11 +116,17 @@ hr {
     max-width: 1500px;
 }
 
-.list{
-    margin-top: 100px;
+.footer2{
+    max-width: 1500px;
+    max-height: 600px;
 }
 
 .schedule{
     max-width: 1500px;
     margin-top: 100px;
+}
+
+.signbox {
+    max-width: 600px;
+    margin-top: 150px;
 }

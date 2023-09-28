@@ -41,10 +41,10 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav justify-content-center mx-auto">
                     <li class="nav-item">
-                        <a href="schedule.html" class="nav-link text-danger">Schedule & Pricing</a>
+                        <a href="schedule.html" class="nav-link text-danger">Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a href="signup.html" class="nav-link text-danger">Sign Up</a>
+                        <a href="signin.html" class="nav-link text-danger">Sign In</a>
                     </li>
                     <li class="nav-item">
                         <a href="signedout.html" class="nav-link text-danger">Sign Out</a>
@@ -59,8 +59,8 @@
 
     <!-- Header Image -->
     <section>
-        <div class="container-fluid px-0 mt-5 bg-dark">
-            <div class = "card mt-5">
+        <div class="container-fluid px-0 bg-dark headerimg">
+            <div class = "card">
                 <img class = "card-img-top img-fluid" src = "static/Promo.jpg" alt="background image">
                 <p class = "card-img-overlay d-flex justify-content-center flex-column text-center display-1 text-light fw-bold text-decoration-underline">Join The Una Family</p>
             </div>
@@ -99,33 +99,13 @@
         </div>
     </section>
 
-    <!-- Sign Up -->
-    <section>
-        <div class="container-fluid bg-dark p-5 m-0" >
-            <header class="container-fluid display-6 text-center fw-bold text-light">718-<span class="text-danger">268</span>-0044</header>
-            <header class="display-6 text-center fw-bold pt-3 text-light">SIGN UP FOR YOUR <span class="text-danger">FREE</span> 1-WEEK TRIAL TODAY!</header>
-            <hr class="container-fluid text-light">
-            <form class="signupform d-flex justify-content-center container-fluid pb-3">
-                <div class="row container-fluid d-flex justify-content-center">
-                  <div class="col-5">
-                    <input type="text" class="form-control" placeholder="NAME">
-                  </div>
-                  <div class="col-5">
-                    <input type="text" class="form-control" placeholder="EMAIL">
-                  </div>
-                  <div class="col d-flex justify-content-center mt-2 mt-md-0">
-                    <button type="submit" class="btn btn-danger">JOIN!</button>
-                  </div>
-                </div>
-              </form>
-        </div>
-    </section>
-
     <!-- BackGround Image-->
     <section>
         <div class="px-0">
             <div>
-                <img class = "background img-fluid w-100 fixed-top" src = "static/WallPadding.jpg" alt="background image">
+                <img class = "img-fluid w-100 fixed-top background1" src = "static/WallPadding.jpg" alt="background image">
+                <img class = "img-fluid w-100 fixed-top background2 d-lg-none" src = "static/WallPadding.jpg" alt="background image">
+                <img class = "img-fluid w-100 fixed-top background3 d-md-none" src = "static/WallPadding.jpg" alt="background image">
             </div>
         </div>
     </section>
@@ -150,42 +130,41 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Fred">
+                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Zo">
                     <div class = "d-flex intstructor h-100 align-items-center">
-                        <div id="FredShow" class="container-fluid text-center">
-                            <p class="text-white h3">FRED VILLARICA</p>
+                        <div id="ZoShow" class="container-fluid text-center">
+                            <p class="text-white h3">ALONZO RODGRIUEZ</p>
                             <hr class="container-fluid text-white">
                             <p class="text-light h4">Head Professor</p>
                             <p class="text-light h4">3rd Degree Black Belt</p>
                         </div>
-                        <p id="FredHide" class="HiddenBlock">
-                            Fred Began his BJJ journey under Soca where he attained the rank of Black Belt in Brazilian Jiu Jitsu at the age of 28. Fred has competed regularly in tournaments, namely: NAGA Champion, GRAPPLERSQUEST Champion, Multiple time IBJJF medalist from Purplebelt to Blackbelt, Multiple Abu Dhabi Pro Trial medalist. Fred also works as an active registered nurse
+                        <p id="ZoHide" class="HiddenBlock">
+                            Alonzo trained under Master Alexandre “Soca” Freitas since 2005 and has attained the rank of Black Belt in Brazilian Jiu Jitsu. He is currently training students at UNA Brazilian Jiu Jitsu. At 145 lbs. Alonzo has relied mainly on technique in order to win tournaments and is sometimes referred to as “one of the best coaches in New York”
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Fred">
+                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Kevin">
                     <div class = "d-flex intstructor h-100 align-items-center">
-                        <div id="FredShow" class="container-fluid text-center">
-                            <p class="text-white h3">FRED VILLARICA</p>
-                            <hr class="container-fluid text-white">
-                            <p class="text-light h4">Head Professor</p>
-                            <p class="text-light h4">3rd Degree Black Belt</p>
+                        <div id="KevinShow" class="container-fluid text-center">
+                            <p class="text-dark h3">KEVIN ENRILE</p>
+                            <hr class="container-fluid text-dark">
+                            <p class="text-dark h4">Striking Coach</p>
+                            <p class="text-dark h4">BJJ Black Belt</p>
                         </div>
-                        <p id="FredHide" class="HiddenBlock">
-                            Fred Began his BJJ journey under Soca where he attained the rank of Black Belt in Brazilian Jiu Jitsu at the age of 28. Fred has competed regularly in tournaments, namely: NAGA Champion, GRAPPLERSQUEST Champion, Multiple time IBJJF medalist from Purplebelt to Blackbelt, Multiple Abu Dhabi Pro Trial medalist. Fred also works as an active registered nurse
+                        <p id="KevinHide" class="HiddenBlock">
+                            Kevin began training in Muay Thai and BJJ at the age of 14. He has been training Brazilian Jiu-Jitsu exclusively under Professor Fred and Professor Zo when they first opened their doors at end of 2011. Not a stranger to competition, he is always looking to push his limits both as a competitor and as a coach.
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Fred">
+                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Tom">
                     <div class = "d-flex intstructor h-100 align-items-center">
-                        <div id="FredShow" class="container-fluid text-center">
-                            <p class="text-white h3">FRED VILLARICA</p>
+                        <div id="TomShow" class="container-fluid text-center">
+                            <p class="text-white h3">TOM ALTENBURG</p>
                             <hr class="container-fluid text-white">
-                            <p class="text-light h4">Head Professor</p>
-                            <p class="text-light h4">3rd Degree Black Belt</p>
+                            <p class="text-light h4">BJJ Black Belt</p>
                         </div>
-                        <p id="FredHide" class="HiddenBlock">
-                            Fred Began his BJJ journey under Soca where he attained the rank of Black Belt in Brazilian Jiu Jitsu at the age of 28. Fred has competed regularly in tournaments, namely: NAGA Champion, GRAPPLERSQUEST Champion, Multiple time IBJJF medalist from Purplebelt to Blackbelt, Multiple Abu Dhabi Pro Trial medalist. Fred also works as an active registered nurse
+                        <p id="TomHide" class="HiddenBlock">
+                            Tom is an UNA BJJ Black belt who started training in 2011 and instantly fell in love with the art. He’s consistantly tried to combine fundamental concepts with new age techniques and is always trying to evolve his game. He enjoys sharing knowledge and helping fellow training partners grow as athlete’s as well as individuals.
                         </p>
                     </div>
                 </div>
