@@ -27,7 +27,7 @@
         <div class="container-fluid py-2">
             <div class="col-6 d-flex justify-content-center">
                 <img class = "img-fluid" src = "static/logo-overlay.png" alt="Una Logo" id = "logo">
-                <header class="d-flex navbar-brand align-middle ps-2">UNA BJJ</header>
+                <header class="d-flex navbar-brand align-items-center ps-2">UNA BJJ</header>
             </div>
 
             <button 
@@ -41,16 +41,13 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav justify-content-center mx-auto">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link text-danger">About</a>
+                        <a href="schedule.html" class="nav-link text-danger">Schedule & Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#instructors" class="nav-link text-danger">Insturctors</a>
+                        <a href="signup.html" class="nav-link text-danger">Sign Up</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Schedule" class="nav-link text-danger">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#gallery" class="nav-link text-danger">Gallery</a>
+                        <a href="signedout.html" class="nav-link text-danger">Sign Out</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link text-danger">Contact</a>
@@ -72,7 +69,7 @@
 
     <!-- About Section -->
     <section id="about">
-        <div class="container-fluid bg-light px-3">
+        <div class="container-fluid bg-light px-3 m-0">
             <div id="wrapper" class="container-fluid">
             
                 <header class="display-5 text-center fw-bold pt-3">IN THE <span class="text-danger">HEART</span> OF QUEENS</header>
@@ -103,9 +100,9 @@
     </section>
 
     <!-- Sign Up -->
-    <section id="signup">
-        <div class="container-fluid bg-dark p-5" >
-            <header class="display-6 text-center fw-bold pt-1 text-light">718-<span class="text-danger">268</span>-0044</header>
+    <section>
+        <div class="container-fluid bg-dark p-5 m-0" >
+            <header class="container-fluid display-6 text-center fw-bold text-light">718-<span class="text-danger">268</span>-0044</header>
             <header class="display-6 text-center fw-bold pt-3 text-light">SIGN UP FOR YOUR <span class="text-danger">FREE</span> 1-WEEK TRIAL TODAY!</header>
             <hr class="container-fluid text-light">
             <form class="signupform d-flex justify-content-center container-fluid pb-3">
@@ -125,7 +122,6 @@
     </section>
 
     <!-- BackGround Image-->
-
     <section>
         <div class="px-0">
             <div>
@@ -133,212 +129,146 @@
             </div>
         </div>
     </section>
-                
-                <!-- Header Image -->
-           
+    
 
-    <section id="instructors" >
+    <!-- Instructors -->
+    <section>
         <div class="instructors container-fluid p-5">
             <header class="display-5 text-center fw-bold pt-3 text-light">INSTRUCTORS</header>
-            <div class="row">
-                <div class="col-3 card bg-transparent">
-                    <img class = "card-img-top img-fluid" src = "static/fred.jpg" alt="Fred">
-                    <div class = "card-img-overlay d-flex justify-content-center flex-column text-center intstructor">
-                        <div class="show">
+            <hr class="container-fluid text-white">
+            <div class="row" id="instructorrow">
+                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Fred">
+                    <div class = "d-flex intstructor h-100 align-items-center">
+                        <div id="FredShow" class="container-fluid text-center">
                             <p class="text-white h3">FRED VILLARICA</p>
                             <hr class="container-fluid text-white">
                             <p class="text-light h4">Head Professor</p>
                             <p class="text-light h4">3rd Degree Black Belt</p>
                         </div>
-                        <div class="hide">
-                            <!-- <p>Fred started out as a high school wrestler and once he graduated, attended Adelphi university to study nursing. At the same time Fred began studying Brazilian Jiu Jitsu under Roderigo Gracie, which he continued for one year until he attained the rank of Blue Belt. Roderigo left New York for California and Fred began extensively studying with Brazilian Jiu Jitsu Black Belt Legend Alexandre Soca Freitas. Under Soca until Fred attained the rank of Black Belt in Brazilian Jiu Jitsu at the age of 28. Fred has competed regularly in tournaments, namely: NAGA Champion , GRAPPLERSQUEST Champion, Multiple time IBJJF medalist from Purplebelt to Blackbelt, Multiple Abu Dhabi Pro Trial medalist. Fred also works as an active registered nurse.</p> -->
-                        </div>
+                        <p id="FredHide" class="HiddenBlock">
+                            Fred Began his BJJ journey under Soca where he attained the rank of Black Belt in Brazilian Jiu Jitsu at the age of 28. Fred has competed regularly in tournaments, namely: NAGA Champion, GRAPPLERSQUEST Champion, Multiple time IBJJF medalist from Purplebelt to Blackbelt, Multiple Abu Dhabi Pro Trial medalist. Fred also works as an active registered nurse
+                        </p>
                     </div>
                 </div>
-                <div class="col-3">
-                    <img src="static/Fred.jpg" alt="" class="img-fluid">
+                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Fred">
+                    <div class = "d-flex intstructor h-100 align-items-center">
+                        <div id="FredShow" class="container-fluid text-center">
+                            <p class="text-white h3">FRED VILLARICA</p>
+                            <hr class="container-fluid text-white">
+                            <p class="text-light h4">Head Professor</p>
+                            <p class="text-light h4">3rd Degree Black Belt</p>
+                        </div>
+                        <p id="FredHide" class="HiddenBlock">
+                            Fred Began his BJJ journey under Soca where he attained the rank of Black Belt in Brazilian Jiu Jitsu at the age of 28. Fred has competed regularly in tournaments, namely: NAGA Champion, GRAPPLERSQUEST Champion, Multiple time IBJJF medalist from Purplebelt to Blackbelt, Multiple Abu Dhabi Pro Trial medalist. Fred also works as an active registered nurse
+                        </p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <img src="static/Fred.jpg" alt="" class="img-fluid">
+                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Fred">
+                    <div class = "d-flex intstructor h-100 align-items-center">
+                        <div id="FredShow" class="container-fluid text-center">
+                            <p class="text-white h3">FRED VILLARICA</p>
+                            <hr class="container-fluid text-white">
+                            <p class="text-light h4">Head Professor</p>
+                            <p class="text-light h4">3rd Degree Black Belt</p>
+                        </div>
+                        <p id="FredHide" class="HiddenBlock">
+                            Fred Began his BJJ journey under Soca where he attained the rank of Black Belt in Brazilian Jiu Jitsu at the age of 28. Fred has competed regularly in tournaments, namely: NAGA Champion, GRAPPLERSQUEST Champion, Multiple time IBJJF medalist from Purplebelt to Blackbelt, Multiple Abu Dhabi Pro Trial medalist. Fred also works as an active registered nurse
+                        </p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <img src="static/Fred.jpg" alt="" class="img-fluid">
+                <div class="col-12 col-sm-5 col-lg px-0 my-2 container-fluid" id="Fred">
+                    <div class = "d-flex intstructor h-100 align-items-center">
+                        <div id="FredShow" class="container-fluid text-center">
+                            <p class="text-white h3">FRED VILLARICA</p>
+                            <hr class="container-fluid text-white">
+                            <p class="text-light h4">Head Professor</p>
+                            <p class="text-light h4">3rd Degree Black Belt</p>
+                        </div>
+                        <p id="FredHide" class="HiddenBlock">
+                            Fred Began his BJJ journey under Soca where he attained the rank of Black Belt in Brazilian Jiu Jitsu at the age of 28. Fred has competed regularly in tournaments, namely: NAGA Champion, GRAPPLERSQUEST Champion, Multiple time IBJJF medalist from Purplebelt to Blackbelt, Multiple Abu Dhabi Pro Trial medalist. Fred also works as an active registered nurse
+                        </p>
+                    </div>
                 </div>
+                
             </div>
             
         </div>       
     </section>
 
-    <section id="camping">
-        <div class="container-fluid pt-4 bg-light">
-            <header class="display-4 text-center">Camping</header>
-            <p style="text-align: justify;" class="h5 fw-normal p-2">
-                Yellowstone National Park is the flagship of the National Park Service and a favorite to millions of visitors each year. The park is a major destination for all members of the family. By driving the grand loop road, visitors can view the park from the comfort of their vehicle and also take a rest at one of the many roadside picnic areas. For the active visitor, the park has thousands of miles of trails from dayhikes to backcountry explorations.
-
+    <!-- Gallery -->
+    <section>
+        <div class="pt-4 bg-light d-flex row justify-content-center m-0">
             <div class="container-fluid">
-                <table class="table table-bordered table-striped">
-                    <thead class="text-light" style="background-color: #353030!important;" >
-                      <tr>
-                        <th scope="col">Campground</th>
-                        <th scope="col">2023 Dates</th>
-                        <th scope="col">Nightly Fee</th>
-                        <th scope="col">Sites</th>
-                        <th scope="col" class=""><i class="fab fa-accessible-icon d-flex justify-content-center"></i></th>
-                        <th scope="col"><i class="fas fa-toilet d-flex justify-content-center"></i></th>
-                        <th scope="col"><i class="fas fa-shower d-flex justify-content-center"></i></th>
-                        <th scope="col"><i class="fas fa-faucet d-flex justify-content-center"></i></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/bridgebaycg.htm">Bridge Bay</a></th>
-                        <td>5/19 - 9/4</td>
-                        <td>$33 + taxes</td>
-                        <td>432</td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/canyoncg.htm">Canyon</a></th>
-                        <td>5/26 - 9/17</td>
-                        <td>$39 + taxes</td>
-                        <td>273</td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/fishingbridgecg.htm">Fishing Bridge RV Park</a></th>
-                        <td>5/12 - 10/8</td>
-                        <td>$99 + taxes</td>
-                        <td>310</td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/grantcg.htm">Grant Village</a></th>
-                        <td>6/2 - 9/10</td>
-                        <td>$39 + taxes</td>
-                        <td>430</td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                        <td><span class="d-flex justify-content-center">●</span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="https://www.nps.gov/yell/planyourvisit/madisoncg.htm">Madison</a></th>
-                        <td>5/5 - 10/15</td>
-                        <td>$33 + taxes</td>
-                        <td>276</td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                        <td><span class="d-flex justify-content-center"></span></td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <p class="display-4 text-center">Gallery</p>
+                <hr class="container-fluid">
             </div>
-        </div>
-    </section>
-
-    <section id="gallery">
-        <div class="container-fluid pt-4 bg-light">
-            <header class="display-4 text-center">Gallery</header>
-            <div class="row pt-2">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery1.jpg" alt="" class="img-fluid flex-fill">
+            <div class="row pt-2 galleryimages container-fluid justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                    <img src="static/action1.jpg" alt="" class="img-fluid flex-fill">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery2.jpg" alt="" class="img-fluid flex-fill">
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                    <img src="static/blackbelts.jpg" alt="" class="img-fluid flex-fill">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery3.jpg" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                    <img src="static/CardioBikes.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery4.jpg" alt="" class="img-fluid flex-fill">
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                    <img src="static/Exterior.jpg" alt="" class="img-fluid flex-fill">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery5.jpg" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                    <img src="static/happy.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery6.jpg" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                    <img src="static/me.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery7.jpg" alt="" class="img-fluid">
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                    <img src="static/Weights.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery8.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery9.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery10.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery11.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 p-1">
-                    <img src="static/Gallery12.jpg" alt="" class="img-fluid">
-                </div>    
+                <div class="col-12 col-md-6 col-lg-4 p-1">
+                    <img src="static/WomensClass.JPG" alt="" class="img-fluid">
+                </div>   
             </div>
         </div>
     </section>
                 
     <!--Footer-->
     <footer id="contact">
-        <div class="container-fluid bg-dark text-light" style="background-color: #353030!important;">
-            <div class="d-flex row pt-3 pb-3 px-5">
-                <div class="d-flex col-12 col-md-3 justify-content-center align-items-center">
-                    <img class = "img-fluid" src = "static/map.jpg" alt="background image" style="max-height: 300px;">
-                </div>
+        <div class="container-fluid bg-dark text-light d-flex row m-0 justify-content-center">
+            <div class="footer row container-fluid p-3">
 
-                <div class="col-12 col-md-4 px-3">
-                    <header class="display-6">Info</header>
-                    <p class="pt-2">
-                        <span class="bi-geo-alt"></span> 
-                        PO Box 168, Yellowstone National Park, WY 82190-0168
-                    </p>
+                <div class="container-fluid text-center col-md-4">
+                    <header class="display-6 text-decoration-underline">Contact</header>
+                    <div class="pt-2 pb-3">
+                        <a class="text-decoration-none text-light d-flex" href="https://maps.app.goo.gl/iaCVxEeeDA7mBHE66">
+                            <div class="container-fluid p-0">
+                                <p class="m-0"> <span class="bi-geo-alt"></span>10033 Metropolitan Ave</p>
+                                <p class="m-0">Queens, NY 11375</p>
+                            </div>
+                        </a>
+                    </div>
                     <p class="text-break">
                         <span class="bi-envelope"></span>
-                        Yellowstone@recreation.gov
+                        unabjj@gmail.com
                     </p>
                     <p>
-                        <span class="bi-tel"></span>
-                        Park Info: (307) 344-7381
-                    </p>
-                    <p>
-                        <span class="bi-tel"></span>
-                        Road Info: (307) 344-2117
+                        <span class="bi-telephone"></span>
+                        (718) 268-0044
                     </p>
                 </div>
 
-                <div class="col-6 col-md-2 px-3">
-                    <header class="display-6">Tools</header>
-
-                    <p class="pt-2"><a class="text-decoration-none text-light" href="https://www.nps.gov/yell/faqs.htm">FAQ</a></p>
-                    <p><a class="text-decoration-none text-light" href="https://www.nps.gov/yell/siteindex.htm">Site Index</a></p>
-                    <p><a class="text-decoration-none text-light" href="https://www.nps.gov/aboutus/accessibility.htm">Accessibility</a></p>
-                    <p><a class="text-decoration-none text-light" href="https://www.nps.gov/aboutus/privacy.htm">Privacy Policy</a></p>
-                    <p><a class="text-decoration-none text-light" href="https://www.nps.gov/aboutus/notices.htm">Notices</a></p>
+                <div class="container-fluid col-md-4 d-flex align-self-center justify-content-center m-0">
+                    <img src="static/unabjj_socabjj.png" alt="" class="img-fluid w-100">
                 </div>
 
-
-                <div class="col-6 col-md-3 px-3">
-                    <header class="display-6">Social</header>
-                    <p class="pt-2"><a href="https://www.facebook.com/nationalparkservice" class="text-decoration-none text-light"><span class="bi-facebook"></span> FACEBOOK</a></p>
-                    <p><a class="text-decoration-none text-light" href="https://www.youtube.com/nationalparkservice"><span class="bi-twitter"></span> TWITTER</a></p>
-                    <p><a class="text-decoration-none text-light" href="https://twitter.com/natlparkservice"><span class="bi-youtube"></span> YOUTUBE</a></p>
-                    <p><a class="text-decoration-none text-light" href="https://www.instagram.com/nationalparkservice/"><span class="bi-instagram"></span> INSTAGRAM</a></p>
-                    <p><a class="text-decoration-none text-light" href="https://www.flickr.com/photos/nationalparkservice"><span class="bi-three-dots"></span> FLICKR</a></p>
+                <div class="container-fluid text-center col-md-4">
+                    <header class="display-6 text-decoration-underline">Social</header>
+                    <p class="pt-2"><a href="https://www.facebook.com/UnaBjj/" class="text-decoration-none text-light"><span class="bi-facebook"></span> FACEBOOK</a></p>
+                    <p><a class="text-decoration-none text-light" href="https://www.instagram.com/unabjj/"><span class="bi-instagram"></span> INSTAGRAM</a></p>
                 </div>
+
             </div>
         </div>
     </footer>
+
 </body>
 </html>
